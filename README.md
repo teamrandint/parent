@@ -1,3 +1,6 @@
+Put these files in the /go/src/seng468 directory.
+Navigate to the folder.
+
 ```
 docker-compose build
 docker-compose up
