@@ -1,0 +1,11 @@
+webaddr=web
+webport=44456
+
+auditaddr=audit
+auditport=44455
+
+dbaddr=database
+dbport=44457
+
+transaddr=transaction
+transport=44458
