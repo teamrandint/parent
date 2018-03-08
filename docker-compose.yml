@@ -21,6 +21,8 @@ services:
                 - webport
                 - auditaddr
                 - auditport
+                - transaddr
+                - transport
         depends_on:
             - "transaction"
             - "database"
