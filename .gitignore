@@ -1,0 +1,7 @@
+WebServer/
+transaction-server/
+database/
+auditserver/
+mock-quoteserve/
+.vscode
+images.tar

@@ -1,11 +1,11 @@
-webaddr=web
+webaddr=172.20.0.5
 webport=44456
 
-auditaddr=audit
+auditaddr=172.20.0.3
 auditport=44455
 
-dbaddr=database
+dbaddr=172.20.0.4
 dbport=44457
 
-transaddr=transaction
+transaddr=172.20.0.6
 transport=44458
