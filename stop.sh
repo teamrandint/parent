@@ -1,4 +1,4 @@
-sudo docker stop database web trans audit
-sudo docker rm database audit trans web
+docker stop database web trans audit
+docker rm database audit trans web
 
-sudo docker network rm net
+docker network rm net

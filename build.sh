@@ -30,4 +30,6 @@ docker build \
 --build-arg dbport=44457 \
 -t teamrandint/database . 
 
+cd $GOPATH/src/seng468
+rm images.tar
 docker save teamrandint/transactionserver teamrandint/database teamrandint/webserver teamrandint/auditserver > images.tar
