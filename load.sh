@@ -1,2 +1,2 @@
-cat images.tar | sudo docker load
+cat images.tar | docker load
 
