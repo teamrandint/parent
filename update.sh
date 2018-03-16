@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare -a arr=("auditserver" "transaction-server" "database" "WebServer" "parent")
+declare -a arr=("auditserver" "transaction-server" "database" "WebServer" "quoteserver" "parent" "mock-quoteserver")
 cd "${0%/*}"
 for i in "${arr[@]}"
 do 

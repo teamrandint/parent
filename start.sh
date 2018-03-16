@@ -15,15 +15,21 @@ docker run -d -p 44455:44455 \
 --ip 172.20.0.3 \
 teamrandint/auditserver 
 
-docker run -d -p 44458:44458 \
---add-host quoteserve.seng:172.20.0.1 \
---name trans \
---net net \
---ip 172.20.0.6 \
-teamrandint/transactionserver
-
 docker run -d -p 44456:44456 \
 --name web \
 --net net \
 --ip 172.20.0.5 \
 teamrandint/webserver
+
+docker run -d -p 44459:44459 \
+--add-host quoteserve.seng:172.20.0.1 \
+--name quote \
+--net net \
+--ip 172.20.0.7 \
+teamrandint/quoteserver
+
+docker run -p 44458:44458 \
+--name trans \
+--net net \
+--ip 172.20.0.6 \
+teamrandint/transactionserver /bin/bash
