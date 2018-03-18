@@ -3,5 +3,6 @@ transaction-server/
 database/
 auditserver/
 mock-quoteserve/
+quoteserver/
 .vscode
 images.tar
